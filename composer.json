@@ -84,7 +84,8 @@
 			"wpackagist-plugin/pushpress",
 			"wpackagist-plugin/akismet",
 			"wpackagist-plugin/addquicktag",
-			"wpackagist-plugin/wp-multibyte-patch"
+			"wpackagist-plugin/wp-multibyte-patch",
+			"wpackagist-plugin/wordpress-23-related-posts-plugin"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
