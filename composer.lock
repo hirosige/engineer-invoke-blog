@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f06391a061d3878f4b7dd34845641427",
+    "content-hash": "cd17f40a6daeadbcdf83e27ba8e50cfe",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1046,6 +1046,7 @@
                 "array_column",
                 "column"
             ],
+            "abandoned": true,
             "time": "2015-03-20T22:07:39+00:00"
         },
         {
@@ -3871,6 +3872,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordfence/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-23-related-posts-plugin",
+            "version": "3.6.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-23-related-posts-plugin/",
+                "reference": "tags/3.6.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-23-related-posts-plugin.3.6.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-23-related-posts-plugin/"
         },
         {
             "name": "wpackagist-plugin/wp-multibyte-patch",
